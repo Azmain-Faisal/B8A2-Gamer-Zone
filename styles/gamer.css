@@ -6,6 +6,17 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.section-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.section-pera{
+    color: #534C64;
+font-size: 1.1rem;
+font-weight: 400;
+}
+
 
 
 /* nav section styles */
@@ -107,11 +118,7 @@ nav {
 .goat {
     font-size: 5.4rem;
     font-weight: 800;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
+    color: mediumvioletred;
     margin-top: 0px;
     margin-bottom: 3px;
 }
@@ -157,13 +164,14 @@ nav {
     background: #4EC5F7;
 }
 
-.goat-img{
+.goat-img {
     width: 570px;
     height: 600px;
     padding-top: 100px;
+    padding-right: 50px;
 }
 
-.goat-part{
+.goat-part {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -171,10 +179,64 @@ nav {
 
 
 
+/* online games part */
+.online-part-1{
+    text-align: center;
+}
+.funny {
+    color: mediumvioletred;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-part-1 .section-title{
+    padding-top: 120px;
+    margin-bottom: 0px;
+}
+
+.online-img-pera{
+    color: #534C64;
+font-size: 1.2rem;
+font-weight: 500;
+text-align:start;
+}
+
+.online-part-2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 70px;
+}
+.on-img-1,.on-img-2,.on-img-3,.on-img-4{
+    width:300px;
+}
+.img-1{
+    padding: 5px 20px 20px 35px;
+}
+.img-2{
+    padding: 5px 20px 20px 0px;
+}
+.img-3{
+    padding: 0px 20px 20px 0px;
+}
+.img-4{
+    padding: 5px 35px 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive media section */
 /* for mobile */
 @media screen and (max-width:430px) {
+
     /* nav part */
     nav {
         flex-direction: column;
@@ -200,32 +262,38 @@ nav {
 
 
     /* goat part */
-    .goat-part{
+    .goat-part {
         flex-direction: column-reverse;
     }
+
     .goat-img {
         width: 400px;
         height: 500px;
         padding: 200px 60px 0px 60px;
-      }
-      .goat-part-title{
-          padding-top: 30px;
-          padding-left: 60px;
-      }
-      .goat{
+    }
+
+    .goat-part-title {
+        padding-top: 30px;
+        padding-left: 60px;
+    }
+
+    .goat {
         padding-left: 70px;
-      }
-      .play, .download, .people{
+    }
+
+    .play, .download, .people {
         padding-left: 100px;
-      }
-      .singin-btn{
-          margin-left: 60px;
-      }
+    }
+
+    .singin-btn {
+        margin-left: 60px;
+    }
 
 }
 
 /* for tablet */
 @media screen and (min-width:430px) and (max-width:768px) {
+
     /* nav */
     .nav1 {
         flex-direction: row;
@@ -241,18 +309,21 @@ nav {
 
 
     /* goat */
-    .goat-part{
+    .goat-part {
         flex-direction: column-reverse;
     }
-    .play, .download, .people{
+
+    .play, .download, .people {
         padding-left: 50px;
-      }
-      .goat-img {
+    }
+
+    .goat-img {
         width: 500px;
         height: 500px;
-      }
-      .goat-part-1{
+    }
+
+    .goat-part-1 {
         width: 600px;
         height: 700px;
-      }
+    }
 }
