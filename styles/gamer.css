@@ -239,6 +239,7 @@ nav {
     display: flex;
     justify-content:center;
     align-items: center;
+    padding-bottom: 0px;
 }
 
 .play-instantly-part1 {
@@ -274,6 +275,19 @@ nav {
 }
 
 
+/* game types section */
+.gametypes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.gameflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-top: 0px;
+
+}
 
 
 
