@@ -11,10 +11,11 @@
     font-size: 3rem;
     font-weight: 700;
 }
-.section-pera{
+
+.section-pera {
     color: #534C64;
-font-size: 1.1rem;
-font-weight: 400;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 
@@ -180,45 +181,51 @@ nav {
 
 
 /* online games part */
-.online-part-1{
+.online-part-1 {
     text-align: center;
 }
+
 .funny {
     color: mediumvioletred;
     font-size: 48px;
     font-weight: 700;
 }
-.online-part-1 .section-title{
+
+.online-part-1 .section-title {
     padding-top: 120px;
     margin-bottom: 0px;
 }
 
-.online-img-pera{
+.online-img-pera {
     color: #534C64;
-font-size: 1.2rem;
-font-weight: 500;
-text-align:start;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: start;
 }
 
-.online-part-2{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+.online-part-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     padding-top: 70px;
 }
-.on-img-1,.on-img-2,.on-img-3,.on-img-4{
-    width:300px;
+
+.on-img-1, .on-img-2, .on-img-3, .on-img-4 {
+    width: 300px;
 }
-.img-1{
+
+.img-1 {
     padding: 5px 20px 20px 35px;
 }
-.img-2{
+
+.img-2 {
     padding: 5px 20px 20px 0px;
 }
-.img-3{
+
+.img-3 {
     padding: 0px 20px 20px 0px;
 }
-.img-4{
+
+.img-4 {
     padding: 5px 35px 20px 0px;
 }
 
@@ -289,6 +296,36 @@ text-align:start;
         margin-left: 60px;
     }
 
+    /* online game part */
+    .online-part-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-1 {
+        padding: 5px 20px 20px 50px;
+    }
+
+    .on-img-1 {
+        width: 300px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .img-2 {
+        padding: 5px 0px 20px 50px;
+    }
+
+    .img-3 {
+        padding: 5px 60px 20px 50px;
+    }
+
+    .img-4 {
+        padding: 5px 0px 20px 50px;
+    }
+
+    .online-part-1 .section-title {
+        padding-top: 0px;
+    }
+
 }
 
 /* for tablet */
@@ -323,7 +360,32 @@ text-align:start;
     }
 
     .goat-part-1 {
-        width: 600px;
+        width: 710px;
         height: 700px;
+    }
+
+    /* online games part */
+    .online-part-1 .section-title {
+        padding-top: 0px;
+    }
+
+    .online-part-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-1 {
+        padding-left: 60px;
+    }
+
+    .img-2 {
+        padding-right: 40px;
+    }
+
+    .img-3 {
+        padding-left: 60px;
+    }
+
+    .img-4 {
+        padding-right: 40px;
     }
 }
