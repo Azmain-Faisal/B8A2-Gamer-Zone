@@ -40,7 +40,7 @@ nav {
     width: 85px;
     height: 40px;
     padding-top: 40px;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-bottom: 40px;
     padding-right: 20px;
 }
@@ -79,7 +79,7 @@ nav {
     background: rgba(11, 2, 35, 0.10);
     width: 250px;
     height: 50px;
-    margin-right: 200px;
+    margin-right: 70px;
 }
 
 .youtube, .insta {
@@ -228,6 +228,56 @@ nav {
 .img-4 {
     padding: 5px 35px 20px 0px;
 }
+
+
+
+/* play instantly section */
+#play {
+    color: mediumvioletred;
+}
+.play-instantly{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.play-instantly-part1 {
+    text-align: center;
+    padding-bottom: 250px;
+}
+
+.play-instantly-part1 .section-title {
+    margin-bottom: 40px;
+}
+
+.play-instantly .play-instantly-part1 .section-pera {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.instant-kabjab .play-instantly-img{
+    height: 90%;
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    padding-right: 70px;
+}
+
+.next-img {
+    position: relative;
+    bottom: 100%;
+    width: 340px;
+    padding: 40px;
+    position: relative;
+    bottom: 270px;
+}
+
+
+
+
+
 
 
 
