@@ -289,6 +289,65 @@ nav {
 }
 
 
+/* footer section */
+.end-is-near{
+    background-color:#0B0223;
+    width: 1342px;
+    height: 700px;
+}
+.gameicon{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 170px;
+    padding-right: 170PX;
+}
+.amer1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.peraflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.iconflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-top: 40px;
+}
+.pera{
+    color: #FFF;
+font-size: 1.2rem;
+font-weight: 600;
+}
+.icontolapera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+.pera1{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 1rem;
+font-weight: 500;
+}
+.foot{
+    color: rgba(255, 255, 255, 0.60);
+font-size: 1rem;
+font-weight: 500;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 
 
 
@@ -303,6 +362,10 @@ nav {
     border: mediumvioletred 0.5px solid;
     border-radius: 25px;
 }
+.on-img-3:hover{
+    background-image: url("../images/play\ \(2\).png");
+}
+
 
 
 
