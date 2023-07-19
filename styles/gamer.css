@@ -235,9 +235,10 @@ nav {
 #play {
     color: mediumvioletred;
 }
-.play-instantly{
+
+.play-instantly {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding-bottom: 0px;
 }
@@ -256,7 +257,7 @@ nav {
     padding-right: 60px;
 }
 
-.instant-kabjab .play-instantly-img{
+.instant-kabjab .play-instantly-img {
     height: 90%;
     margin-left: 90px;
     display: flex;
@@ -276,11 +277,12 @@ nav {
 
 
 /* game types section */
-.gametypes{
+.gametypes {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
-.gameflex{
+
+.gameflex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,12 +292,13 @@ nav {
 
 
 /* footer section */
-.end-is-near{
-    background-color:#0B0223;
+.end-is-near {
+    background-color: #0B0223;
     width: 1342px;
     height: 700px;
 }
-.gameicon{
+
+.gameicon {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -303,78 +306,69 @@ nav {
     padding-top: 170px;
     padding-right: 170PX;
 }
-.amer1{
+
+.amer1 {
     font-size: 2.8rem;
     font-weight: 700;
     color: #FFF;
 }
 
-.peraflex{
-    display: flex;
+.peraflex {
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 20px;
 }
-.iconflex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
+
+.iconflex {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
     padding-top: 40px;
-}
-.pera{
-    color: #FFF;
-font-size: 1.2rem;
-font-weight: 600;
-}
-.icontolapera{
-    display: flex;
+    gap: 30px;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    padding-top: 20px;
 }
-.pera1{
+
+.pera {
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.icontolapera {
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.pera1 {
     color: rgba(255, 255, 255, 0.60);
-font-size: 1rem;
-font-weight: 500;
+    font-size: 1rem;
+    font-weight: 500;
 }
-.foot{
+
+.foot {
     color: rgba(255, 255, 255, 0.60);
-font-size: 1rem;
-font-weight: 500;
-display: flex;
-justify-content: center;
-align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
 }
-
-
-
-
-
-
-
-
 
 
 /* hover part */
-.gameflex:hover{
+.gameflex:hover {
     border: mediumvioletred 0.5px solid;
     border-radius: 25px;
 }
-.on-img-3:hover{
+
+.on-img-3:hover {
     background-image: url("../images/play\ \(2\).png");
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* responsive media section */
@@ -465,31 +459,36 @@ align-items: center;
 
 
     /* play instantly part */
-    .play-instantly{
+    .play-instantly {
         flex-direction: column;
         margin-top: 0px;
         padding-top: 0px;
     }
-    .play-instantly-part1{
+
+    .play-instantly-part1 {
         margin-top: 50px;
         margin-bottom: -90px;
     }
-    .play-instantly-img{
+
+    .play-instantly-img {
         width: 350px;
         height: 700px;
         padding-top: 0px;
         padding-right: 0px;
         flex-direction: column;
     }
-    .instant-kabjab{
+
+    .instant-kabjab {
         margin: 0px;
         padding: 0px;
 
     }
-    .play-instantly-part1{
+
+    .play-instantly-part1 {
         padding-bottom: 0px;
     }
-    .next-img-1{
+
+    .next-img-1 {
         width: 200px;
         padding: 100px 50px 0px 30px;
         margin-bottom: 0px;
@@ -497,17 +496,53 @@ align-items: center;
     }
 
     /* game type */
-    .gameflex{
+    .gameflex {
         flex-direction: column;
     }
-    .gft{
+
+    .gft {
         text-align: center;
+    }
+
+
+    /* footer section */
+    .end-is-near {
+        width: 430px;
+        height: 1200px;
+    }
+
+    .gameicon {
+        flex-direction: column;
+        padding-right: 0PX;
+        margin-left: 0px;
+    }
+
+    .peraflex {
+        grid-template-columns: repeat(3, 115px);
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+
+    .iconflex {
+        grid-template-columns: repeat(3, 70px);
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .icontolapera {
+        grid-template-columns: repeat(2, 180px);
+        padding-left: 50px;
+    }
+
+    .foot {
+        padding-left: 90px;
+        padding-right: 90px;
     }
 }
 
 /* for tablet */
 @media screen and (min-width:430px) and (max-width:768px) {
-
     /* nav */
     .nav1 {
         flex-direction: row;
@@ -566,14 +601,41 @@ align-items: center;
         padding-right: 40px;
     }
 
-        /* play instantly part */
-        .play-instantly{
-            flex-direction: column;
-        }
-        .play-instantly-part1{
-            padding-bottom: 0px;
-        }
-        .play-instantly-img{
-            margin-top: 0px;
-        }
+    /* play instantly part */
+    .play-instantly {
+        flex-direction: column;
+    }
+
+    .play-instantly-part1 {
+        padding-bottom: 0px;
+    }
+
+    .play-instantly-img {
+        margin-top: 0px;
+    }
+
+    /* footer section */
+    .end-is-near {
+        width: 768px;
+        height: 900px;
+    }
+    .gameicon {
+        padding-right: 30PX;
+    }
+    .peraflex {
+        grid-template-columns: repeat(3, 150px);
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    .iconflex {
+        grid-template-columns: repeat(3, 100px);
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+
+    .icontolapera {
+        grid-template-columns: repeat(2, 200px);
+        padding-left: 70px;
+    }
 }
