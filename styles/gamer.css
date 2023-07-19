@@ -266,7 +266,6 @@ nav {
 }
 
 .next-img {
-    position: relative;
     bottom: 100%;
     width: 340px;
     padding: 40px;
@@ -376,6 +375,39 @@ nav {
         padding-top: 0px;
     }
 
+
+    /* play instantly part */
+    .play-instantly{
+        flex-direction: column;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .play-instantly-part1{
+        margin-top: 50px;
+        margin-bottom: -90px;
+    }
+    .play-instantly-img{
+        width: 350px;
+        height: 700px;
+        padding-top: 0px;
+        padding-right: 0px;
+        flex-direction: column;
+    }
+    .instant-kabjab{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    .play-instantly-part1{
+        padding-bottom: 0px;
+    }
+    .next-img-1{
+        width: 200px;
+        padding: 100px 50px 0px 30px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
 }
 
 /* for tablet */
@@ -438,4 +470,15 @@ nav {
     .img-4 {
         padding-right: 40px;
     }
+
+        /* play instantly part */
+        .play-instantly{
+            flex-direction: column;
+        }
+        .play-instantly-part1{
+            padding-bottom: 0px;
+        }
+        .play-instantly-img{
+            margin-top: 0px;
+        }
 }
