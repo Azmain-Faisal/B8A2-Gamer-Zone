@@ -315,7 +315,7 @@ nav {
 
 .peraflex {
     display: grid;
-    grid-template-columns: repeat(6, 150px);
+    grid-template-columns: repeat(6, 120px);
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -323,8 +323,8 @@ nav {
 
 .iconflex {
     display: grid;
-    grid-template-columns: repeat(6, 100px);
-    padding-top: 40px;
+    grid-template-columns: repeat(6, 50px);
+    padding-top: 60px;
     gap: 30px;
     justify-content: center;
     align-items: center;
@@ -342,7 +342,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 90px;
 }
 
@@ -362,8 +362,9 @@ nav {
 
 /* hover part */
 .gameflex:hover {
-    border: mediumvioletred 0.5px solid;
+    border: mediumvioletred 1px solid;
     border-radius: 25px;
+    border-width: 1px;
 }
 
 .on-img-3:hover {
@@ -508,7 +509,7 @@ nav {
     /* footer section */
     .end-is-near {
         width: 430px;
-        height: 1200px;
+        height: 950px;
     }
 
     .gameicon {
@@ -527,7 +528,7 @@ nav {
     .iconflex {
         grid-template-columns: repeat(3, 70px);
         padding-left: 20px;
-        padding-top: 10px;
+        padding-top: 40px;
     }
 
     .icontolapera {
@@ -543,6 +544,7 @@ nav {
 
 /* for tablet */
 @media screen and (min-width:430px) and (max-width:768px) {
+
     /* nav */
     .nav1 {
         flex-direction: row;
@@ -619,15 +621,18 @@ nav {
         width: 768px;
         height: 900px;
     }
+
     .gameicon {
         padding-right: 30PX;
     }
+
     .peraflex {
         grid-template-columns: repeat(3, 150px);
         text-align: center;
         padding-left: 10px;
         padding-right: 30px;
     }
+
     .iconflex {
         grid-template-columns: repeat(3, 100px);
         padding-left: 50px;
